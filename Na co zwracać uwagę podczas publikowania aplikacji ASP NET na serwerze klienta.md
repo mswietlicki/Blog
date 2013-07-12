@@ -10,7 +10,7 @@ Tags: 	Blog
 Na co zwracać uwagę podczas publikowania aplikacji ASP.NET na serwerze klienta
 ==================
 
-Wczoraj wdrażam system mojej firmy na serwerze przygotowanym dla nas przez klienta (Urzędu Miasta).
+Wczoraj wdrażałem system mojej firmy na serwerze przygotowanym dla nas przez klienta (Urząd Miasta).
 
 W skrócie 15min roboty rozrosło się do 3 godzin.
 
