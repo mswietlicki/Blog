@@ -4,10 +4,6 @@ CreateDate: 2010-04-11 00:41
 Tags:	Blog
 		Windows
 
-
-Jak zmienić tło ekranu logowania?
-====================
-
 Windows 7 tak samo jak Vista umożliwia twórcom OEM zmianę tła okna logowania do Windowsa.
 
 Aby je zmienić należy edytować wpis w rejestrze:

@@ -1,11 +1,8 @@
-Title: O mnie
+Title: Mateusz Świetlicki
 Autor: Mateusz Świetlicki
 CreateDate: 2013-07-01 17:42
 Hidden: True
 Tags:	O mnie
-
-Mateusz Świetlicki
-============
 
 Programista .NET, C#, WPF, ASP.NET or SharePoint.
 

@@ -5,9 +5,6 @@ Tags: 	Blog
 		.NET
 		WCF
 
-Exchange 2010 - The WinRM client received an HTTP server error status (500)
-===========
-
 Natknąłem się ostatnio znów na problem z serwerem Exchange 2010 stojącym na wirtualnym WS2008R2. Przy próbie połączenia z konsolą exchange wyświetlał się komunikat błędu:
 
 ```

@@ -5,9 +5,6 @@ Tags: 	Blog
 		SQL
 		Error
 
-SQL Database Copy - Cannot find the principal
-==================
-
 Napotkałem dziś ciekawy problem podczas kopiowania bazy SQL z jednego serwera (w domenie) do drugiego (poza domeną).
 
 Okazało się, że mimo iż nie kazałem mu kopiować uprawnień SQL zgłaszał błąd:

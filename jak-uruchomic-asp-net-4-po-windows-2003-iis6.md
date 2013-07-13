@@ -9,9 +9,6 @@ Tags: 	Blog
 		Windows
 		Windows Server
 
-Jak uruchomić ASP.NET 4.0 po Windows 2003 IIS6
-===========
-
 Jeśli otrzymujecie błąd:
 
 ```xml

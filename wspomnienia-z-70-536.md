@@ -5,9 +5,6 @@ Tags: 	Blog
 		.NET
 		Certyfikat
 
-Wspomnienia z 70-536
-===========
-
 Cześć,
 
 Po tym jak poprowadziłem na spotkaniu Grupy.NET na Politechnice Lubelskiej prezentacje o podobnym temacie, otrzymałem kilka próśb od osób których na nim nie było abym opisał jego esencję.

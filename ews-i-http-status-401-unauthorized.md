@@ -5,9 +5,6 @@ Tags: 	Blog
 		.NET
 		WCF
 
-EWS i HTTP status 401: Unauthorized
-===========
-
 Cześć,
 
 Natknąłem się ostatnio na problem podłączenia się do Exchange 2010 SP1, wykorzystując EWS (Exchange Web Service)

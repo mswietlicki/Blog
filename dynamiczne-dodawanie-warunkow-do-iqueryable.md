@@ -5,9 +5,6 @@ Tags: 	Blog
 		.NET
 		Triki
 
-Dynamiczne dodawanie warunków do IQueryable
-===========
-
 Mieliście kiedyś potrzebę stworzenia generycznej metody która enkapsulowałaby warunek LINQ i która można by użyć w zapytaniu np. do EntityFramework bez utraty IQueryable na IEnumarable?
 
 Ja tak. Na w zapytaniu:

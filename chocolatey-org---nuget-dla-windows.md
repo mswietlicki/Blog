@@ -7,10 +7,6 @@ Tags: 	Blog
 		Chocolatey
 		Windows
 
-
-chocolatey.org – Nuget dla Windows
-==================
-
 Natknąłem się ostatnio na bardzo fajne narzędzie: http://chocolatey.org/
 
 Jest to konsolowe narzędzie pozwalające automatycznie instalować i aktualizować programy takie jak 7zip, notepad++, vlc, chrome itd…

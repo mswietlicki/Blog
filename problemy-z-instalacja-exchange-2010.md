@@ -6,9 +6,6 @@ Tags: 	Blog
 		IT
 		Exchange
 
-Problemy z instalacją Exchange 2010
-===========
-
 Cześć,
 
 Opisze dzisiaj serię problemów które miałem z instalacją Microsoft Exchange 2010 SP1 pod Windows Server 2008 R2 SP1 i migrację danych z Exchange 2003 działającym na Windows Server 2003 R2 SP2 PL który jest również kontrolerem domeny poziomu Windows Server 2003 Native.
