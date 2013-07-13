@@ -7,7 +7,7 @@ Tags: 	Blog
 		Chocolatey
 		Windows
 
-Natknąłem się ostatnio na bardzo fajne narzędzie: http://chocolatey.org/
+Natknąłem się ostatnio na bardzo fajne narzędzie: [http://chocolatey.org]
 
 Jest to konsolowe narzędzie pozwalające automatycznie instalować i aktualizować programy takie jak 7zip, notepad++, vlc, chrome itd…
 

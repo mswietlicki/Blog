@@ -1,4 +1,4 @@
-Title: NDC 2012 – Moje oceny
+Title: Crack on my bedroom wall
 Autor: Mateusz Świetlicki
 CreateDate: 2012-07-13 19:15
 Tags:	Blog
