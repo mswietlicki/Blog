@@ -8,5 +8,3 @@ Tags:	Blog
 Czyli zabawy w artystę ;)
 
 ![Crack on my bedroom wall](/files/crack.jpg)
-
-.
