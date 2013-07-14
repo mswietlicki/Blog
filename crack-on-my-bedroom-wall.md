@@ -7,4 +7,4 @@ Tags:	Blog
 
 Czyli zabawy w artystę ;)
 
-![Crack on my bedroom wall](https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-prn2/976344_4956075654771_1757907869_o.jpg)
+![Crack on my bedroom wall](/files/crack.jpg)
