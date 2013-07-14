@@ -1,6 +1,6 @@
 Blog
 ====
 
-![omg](http://localhost:8024/content/net.png/)
+![omg](http://i.microsoft.com/net/images/chrome/net-logo.jpg)
 
 This is posts repository of my Git enabled BlogEngine.
