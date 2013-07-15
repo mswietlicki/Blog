@@ -18,7 +18,8 @@ Jeśli otrzymujecie błąd:
 	</assemblies>      
 </compilation>
 ```
-``` 
+
+```
 fails with
 Exception information:  
 Exception type: ConfigurationErrorsException Exception message:
