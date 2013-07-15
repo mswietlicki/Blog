@@ -9,7 +9,7 @@ Tags:	Blog
 		.NET
 		JS
 
-Jak może wiecie 6-8 czerwca miała miejsce konferencja NDC 2012. Największa w strona konferencja informatyczna, chyba nawet większa niż TechEd. Jak wiele nowoczesnych konferencji wszystkie prezentacje są dostępne online on demand. ( [http://ndcoslo.oktaset.com/Agenda] )
+Jak może wiecie 6-8 czerwca miała miejsce konferencja NDC 2012. Największa w strona konferencja informatyczna, chyba nawet większa niż TechEd. Jak wiele nowoczesnych konferencji wszystkie prezentacje są dostępne online on demand. (<http://ndcoslo.oktaset.com/Agenda>)
 
 W tym poście postaram się pokierować Was które nagrania są najfajniejsze, a które są nudne.
 
