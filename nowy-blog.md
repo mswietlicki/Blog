@@ -20,7 +20,7 @@ Głównymi założeniami były:
 - Wpisy będą publicznie dostępne także na GitHubie (<https://github.com/mswietlicki/Blog>)
 - Będzie to aplikacja ASP.NET MVC.
 
-I jak możecie już zobaczyć złożenia w większości zostały zrealizowane i efekt mojej pracy można zobaczyć pod adresem <//mateusz.swietlicki.net>.
+I jak możecie już zobaczyć złożenia w większości zostały zrealizowane i efekt mojej pracy można zobaczyć pod adresem <http://mateusz.swietlicki.net>.
 
 Jeśli macie uwagi lub chcielibyście dodać własne poprawki zapraszam na GitHub. Z przyjemnością przyjmę Pull requesty ;)
  
