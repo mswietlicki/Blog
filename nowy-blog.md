@@ -8,9 +8,10 @@ Tags:	Blog
 		Markdown
 
 Gdzieś na początku maja postanowiłem stworzyć nowy domowy projekt który mógłbym napisać używając prawdziwego TDD (t.z. Nie wolno Ci napisać ani linijki kodu produkcyjnego jeżeli nie istnieje test który nie przechodzi!) oraz innych nowoczesnych metodyk których na co dzień nie mogę użyć w pracy. 
-Akurat tak się złożyło, że od dawna planowałem odświeżyć mojego bloga wiec na niego padło.
+Akurat tak się złożyło, że od dawna planowałem odświeżyć mojego bloga.
 
 Głównymi założeniami były:
+
 - Blog będzie pisany z duchem TDD
 - Projekt będzie silnie używał IoC do którego odwołanie będzie jedynie w bootstraperze
 - Projekt będzie otwarty i publicznie dostępny na GitHubie (<https://github.com/mswietlicki/MSBlogEngine>)
