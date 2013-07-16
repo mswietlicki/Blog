@@ -7,6 +7,8 @@ Tags:	Blog
 		NDC 2013
 		NDCOslo
 
+![NDC](/files/NDC_2013_Banner.jpg)
+
 12-14 czerwca w Oslo odbyła się konferencja [NDC](http://www.ndcoslo.com/) (Norwegian Developers Conference). Jak przystało na dobrą konferencję wszystkie prezentację są nagrane i dostępne on demand w Internecie pod adresem <http://vimeo.com/ndcoslo>.
 
 Moje oceny prezentacji:
