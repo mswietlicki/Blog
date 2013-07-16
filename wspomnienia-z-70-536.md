@@ -16,7 +16,7 @@ Opowiem jedynie jak ja się do niego uczyłem.
 
 Otóż można by wyszczególnić 3 etapy mojej nauki.:
 
-1. Książka
+## Książka ##
 
 Na początek oczywiście postanowiłem przeczytać/przeanalizować książkę MSPress Self Paced Training Kit 70-536. Robiłem to jednak w trochę niezwykły sposób. Otóż zauważyłem, że czytając książkę szczególnie w wersji papierowej, po prostu mi się nie chciało. Przeskakiwałem fragmenty, czytałem nieuważnie, bagatelizowałem fragmenty mówiąc sobie “to wiem, to wiem, to jest proste”, tym samym omijając jednak sporo ciekawych fragmentów.
 
@@ -25,11 +25,13 @@ Takie rozwiązane wymuszało na mnie analizę całego tekstu i nie pozawalało m
 
 Rozwiązanie to ma oczywiście swoje wady gdyż trzeba tekst na początek trochę przygotować np.: usunąć kod, opisy stron, nagłówki itp. (ja napisałem sobie do tego programik). Także nie każdy lubi słuchać syntezowanego głosu wiec może się tak męczyć.
 
-2. Internet
+## Internet ##
 
 Następnym krokiem było dla mnie szukanie informacji o egzaminie w Internecie. Fora, blogi, opracowania jak bardzo dobre Grupy.NET EastGroup.
 
-3. Na koniec, a właściwie razem w drugim krokiem sprawdzałem swoje umiejętności na dostępnym na płycie programie Practice tests. Można także skorzystać z płatnych (czasami jednak dostępnych na rapidach) próbnych testach w stylu Transcender.
+## Na koniec ##
+
+A właściwie razem w drugim krokiem sprawdzałem swoje umiejętności na dostępnym na płycie programie Practice tests. Można także skorzystać z płatnych (czasami jednak dostępnych na rapidach) próbnych testach w stylu Transcender.
 
 Testy takie są bardzo fajne ponieważ odpowiedz na każde pytanie jest dokładnie opisana, dlaczego akurat ta, a nie tamta.
 

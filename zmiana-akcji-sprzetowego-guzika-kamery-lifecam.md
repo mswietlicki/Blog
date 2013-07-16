@@ -7,7 +7,7 @@ Tags: 	Blog
 		Hardware
 		LifeCam
 
-![](/files/microsoft_lifecam_vx5500.jpg)
+![LifeCam VX-5500](/files/microsoft_lifecam_vx5500.jpg)
 
 Jeśli jesteś szczęśliwym posiadaczem kamery internetowej Microsoftu np.: **LifeCam VX-5500**, może interesowało Cię czy nie dało by się spersonalizować hardwareowego przycisku który jest na kamerce?
 

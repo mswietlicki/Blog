@@ -15,6 +15,6 @@ Moje oceny prezentacji:
 
 - [Robert C. Martin: Clean Architecture and Design](http://vimeo.com/68215570) (5/5) - Uncle Bob jak zwykle zrobił świetną prezentację chociaż nie był to pierwszy raz gdy widziałem go opowiadający na ten temat. Ogólnie polecam.
 - [Robert C. Martin: Principles of Component Design.](http://vimeo.com/68236438) (4/5) - Robert bardzo dobrze wyjaśnił czym są komponenty (np.: DLL), dlaczego je używamy i jakie są z nimi problemy. Polecam chociaż nie jest obowiązkowe.
-- [Dan North: Patterns of Effective Teams](https://vimeo.com/68226771) (4/5) - Fajna prezentacja nie tylko dla menadżerów. Jeżeli starasz zarządzać grupą programistów musisz to obejrzeć!
+- [Dan North: Patterns of Effective Teams](https://vimeo.com/68226771) (4/5) - Fajna prezentacja nie tylko dla menadżerów. Jeżeli starasz się zarządzać grupą programistów musisz to obejrzeć!
 
 Będę dodawał następne oceny systematycznie. 

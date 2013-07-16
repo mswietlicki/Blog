@@ -5,7 +5,7 @@ Tags: 	Blog
 		ClickOnce
 		IT
 
-![](http://bloggingabout.net/blogs/dennis/WindowsLiveWriter/ManualcheckforupdateswithClickOnce_A5E8/clickonce_autoupdate_3.gif)
+![ClickOnce autoupdate](http://bloggingabout.net/blogs/dennis/WindowsLiveWriter/ManualcheckforupdateswithClickOnce_A5E8/clickonce_autoupdate_3.gif)
 
 Czyszczenie cache'a w wypadku problemu z już zainstalowaną aplikacją:
 
