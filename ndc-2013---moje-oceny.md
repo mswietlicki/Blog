@@ -3,6 +3,7 @@ Autor: Mateusz Świetlicki
 CreateDate: 2013-07-16 17:50
 Tags:	Blog
 		NDC
+		Conference
 		NDC 2013
 		NDCOslo
 
