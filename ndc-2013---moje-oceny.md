@@ -19,5 +19,7 @@ Moje oceny prezentacji:
 - [Christian Amor Kvalheim: Why Document Databases supercharge your app development](https://vimeo.com/68383316) (-/5) - Christian mówił zbyt monotonnie i nudnie co spowodowało, że po 10 min się znudziłem. Nie wystawie jednak oceny bo może po prostu ja byłem zmęczony.
 - [Venkat Subramaniam: Succeeding with TDD: Pragmatic Techniques for effective mocking](https://vimeo.com/68383352) (4/5) - Jeżeli nie uruchamiasz swoich testów ponieważ wykonanie ich wszystkich trwa za długo to ta prezentacja jest Ciebie.
 - [Paul Betts: Effective GitHubbing: The GitHub Flow](https://vimeo.com/68378254) (3/5) - Paul całkiem dobrze wyjaśnia jak działa Git, chociaż temat szybko robi się skomplikowany i niejasny.
+- [Rob Sullivan: SQL Server's Last Breath](https://vimeo.com/68334905) (3/5) - Po tej prezentacji pewnie spróbuje użyć PostgreSQL w którymś z moich projektów. Jeśli staniesz kiedyś nad wyborem bazy danych dla Twojej firmy warto obejrzeć ten wykład.
+- [Kevlin Henney: The Architecture of Uncertainty](https://vimeo.com/68331684) (4/5) - Dobra prezentacja na planowania projektów. Ogólnie wyjaśnia rdzeń metodologii Agile ani razu nie mówiąc słowa "Agile". (Przy końcu są jakieś problemy z obrazem :()
 
 Będę systematycznie dodawał następne oceny. 
