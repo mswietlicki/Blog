@@ -4,7 +4,6 @@ CreateDate: 2013-07-16 17:50
 Tags:	Blog
 		NDC
 		Conference
-		NDC 2013
 		NDCOslo
 
 ![NDC](/files/NDC_2013_Banner.jpg)
@@ -17,5 +16,8 @@ Moje oceny prezentacji:
 - [Robert C. Martin: Principles of Component Design.](http://vimeo.com/68236438) (4/5) - Robert bardzo dobrze wyjaśnił czym są komponenty (np.: DLL), dlaczego je używamy i jakie są z nimi problemy. Polecam chociaż nie jest obowiązkowe.
 - [Dan North: Patterns of Effective Teams](https://vimeo.com/68226771) (4/5) - Fajna prezentacja nie tylko dla menadżerów. Jeżeli starasz się zarządzać grupą programistów musisz to obejrzeć!
 - [John Zablocki: Code-First NoSQL with .NET and Couchbase](https://vimeo.com/68378224) (3/5) - Prezentacja nie jest zła i jeżeli interesujesz się NoSQL to jest to dobry start. John koduje na żywo wiec sporo można się nauczyć.
+- [Christian Amor Kvalheim: Why Document Databases supercharge your app development](https://vimeo.com/68383316) (-/5) - Christian mówił zbyt monotonnie i nudnie co spowodowało, że po 10 min się znudziłem. Nie wystawie jednak oceny bo może po prostu ja byłem zmęczony.
+- [Venkat Subramaniam: Succeeding with TDD: Pragmatic Techniques for effective mocking](https://vimeo.com/68383352) (4/5) - Jeżeli nie uruchamiasz swoich testów ponieważ wykonanie ich wszystkich trwa za długo to ta prezentacja jest Ciebie.
+- [Paul Betts: Effective GitHubbing: The GitHub Flow](https://vimeo.com/68378254) (3/5) - Paul całkiem dobrze wyjaśnia jak działa Git, chociaż temat szybko robi się skomplikowany i niejasny.
 
 Będę systematycznie dodawał następne oceny. 
