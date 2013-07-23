@@ -2,6 +2,7 @@ Title: Hardkodowe poprawki w SharePoint 2010
 Autor: Mateusz Świetlicki
 CreateDate: 2010-08-2 12:26
 Tags: 	Blog
+		PL
 		SharePoint
 
 Napiszę tu pewnie kiedyś kilka słów wstępu. Teraz jednak przejdę odrazu to rzeczy.

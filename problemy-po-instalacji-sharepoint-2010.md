@@ -2,6 +2,7 @@ Title: Problemy po instalacji SharePoint 2010
 Autor: Mateusz Świetlicki
 CreateDate: 2010-08-2 12:44
 Tags: 	Blog
+		PL
 		SharePoint
 		Error
 

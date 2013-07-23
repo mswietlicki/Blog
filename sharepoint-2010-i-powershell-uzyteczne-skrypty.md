@@ -2,6 +2,7 @@ Title: SharePoint 2010 i PowerShell użyteczne skrypty
 Autor: Mateusz Świetlicki
 CreateDate: 2010-08-15 17:54
 Tags: 	Blog
+		PL
 		PowerShell
 		SharePoint
 

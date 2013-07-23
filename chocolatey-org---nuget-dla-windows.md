@@ -2,6 +2,7 @@ Title: chocolatey.org – Nuget dla Windows
 Autor: Mateusz Świetlicki
 CreateDate: 2012-06-09 15:56
 Tags: 	Blog
+		PL
 		PowerShell
 		Nuget
 		Chocolatey

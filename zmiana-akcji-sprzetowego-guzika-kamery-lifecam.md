@@ -3,6 +3,7 @@ Autor: Mateusz Świetlicki
 CreateDate: 2010-06-22 00:54
 Image: /files/microsoft_lifecam_vx5500.jpg
 Tags: 	Blog
+		PL
 		Triki
 		Hardware
 		LifeCam

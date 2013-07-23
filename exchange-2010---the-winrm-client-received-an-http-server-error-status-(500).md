@@ -2,6 +2,7 @@ Title: Exchange 2010 - The WinRM client received an HTTP server error status (50
 Autor: Mateusz Świetlicki
 CreateDate: 2010-04-15 00:41
 Tags: 	Blog
+		PL
 		.NET
 		WCF
 

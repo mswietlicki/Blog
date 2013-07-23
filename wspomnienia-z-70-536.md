@@ -2,6 +2,7 @@ Title: Wspomnienia z 70-536
 Autor: Mateusz Świetlicki
 CreateDate: 2010-04-15 00:41
 Tags: 	Blog
+		PL
 		.NET
 		Certyfikat
 

@@ -2,6 +2,7 @@ Title: Windows Serwer 2008 R2 PortMapping
 Autor: Mateusz Świetlicki
 CreateDate: 2011-07-11 12:10
 Tags: 	Blog
+		EN
 		.NET
 		WCF
 

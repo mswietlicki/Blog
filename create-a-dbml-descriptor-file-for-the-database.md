@@ -2,6 +2,7 @@ Title: Create a .dbml descriptor file for the Database
 Autor: Mateusz Świetlicki
 CreateDate: 2010-08-15 17:54
 Tags: 	Blog
+		EN
 		PowerShell
 		Nuget
 		Chocolatey

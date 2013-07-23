@@ -2,6 +2,7 @@ Title: Mateusz Świetlicki
 Autor: Mateusz Świetlicki
 CreateDate: 2013-07-01 17:42
 Tags:	O mnie
+		PL
 
 <img class="leftImg" src="/files/winner.jpg" alt="Mateusz Świetlicki" />
 

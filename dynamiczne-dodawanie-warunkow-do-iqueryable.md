@@ -2,6 +2,7 @@ Title: Dynamiczne dodawanie warunków do IQueryable
 Autor: Mateusz Świetlicki
 CreateDate: 2012-02-11 10:49
 Tags: 	Blog
+		PL
 		.NET
 		Triki
 

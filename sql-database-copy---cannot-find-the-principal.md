@@ -2,6 +2,7 @@ Title: SQL Database Copy - Cannot find the principal
 Autor: Mateusz Świetlicki
 CreateDate: 2012-05-24 21:21
 Tags: 	Blog
+		PL
 		SQL
 		Error
 

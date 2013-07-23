@@ -2,6 +2,7 @@ Title: NDC 2013 - Moje oceny
 Autor: Mateusz Świetlicki
 CreateDate: 2013-07-16 17:50
 Tags:	Blog
+		PL
 		NDC
 		Conference
 		NDCOslo
@@ -21,5 +22,7 @@ Moje oceny prezentacji:
 - [Paul Betts: Effective GitHubbing: The GitHub Flow](https://vimeo.com/68378254) (3/5) - Paul całkiem dobrze wyjaśnia jak działa Git, chociaż temat szybko robi się skomplikowany i niejasny.
 - [Rob Sullivan: SQL Server's Last Breath](https://vimeo.com/68334905) (3/5) - Po tej prezentacji pewnie spróbuje użyć PostgreSQL w którymś z moich projektów. Jeśli staniesz kiedyś nad wyborem bazy danych dla Twojej firmy warto obejrzeć ten wykład.
 - [Kevlin Henney: The Architecture of Uncertainty](https://vimeo.com/68331684) (4/5) - Dobra prezentacja na planowania projektów. Ogólnie wyjaśnia rdzeń metodologii Agile ani razu nie mówiąc słowa "Agile". (Przy końcu są jakieś problemy z obrazem :()
+- [Peter Cooper: Practical Publishing for Profitable Programmers](https://vimeo.com/68226816) (3/5) - Peter całkiem ciekawie opowiada o sposobach promowania siebie i swojej marki w internecie i jak można na tym zarobić. Dam tylko 3 ponieważ informacje nie są takie odkrywcze. Podam jeszcze link do zasobów z prezentacji [http://no.gd/pp4pp/](http://no.gd/pp4pp/).
+- [Russ Miles: You are not (only) a software developer! - Simplicity in practice](https://vimeo.com/68236436) (3/5) - t
 
 Będę systematycznie dodawał następne oceny. 

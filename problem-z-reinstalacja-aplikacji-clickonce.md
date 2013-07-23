@@ -2,6 +2,7 @@ Title: Problem z reinstalacją aplikacji ClickOnce
 Autor: Mateusz Świetlicki
 CreateDate: 2011-04-11 15:02
 Tags: 	Blog
+		PL
 		ClickOnce
 		IT
 

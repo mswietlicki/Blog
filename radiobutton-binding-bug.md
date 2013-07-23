@@ -2,6 +2,7 @@ Title: RadioButton binding bug
 Autor: Mateusz Świetlicki
 CreateDate: 2013-07-17 18:50
 Tags:	Blog
+		PL
 		Bug
 		XAML
 		Error

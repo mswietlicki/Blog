@@ -2,6 +2,7 @@ Title: Jak uruchomić ASP.NET 4.0 po Windows 2003 IIS6
 Autor: Mateusz Świetlicki
 CreateDate: 2011-09-15 13:05
 Tags: 	Blog
+		PL
 		.NET
 		ASP.NET
 		Error
