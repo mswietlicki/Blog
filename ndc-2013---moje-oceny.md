@@ -43,7 +43,7 @@ Moje oceny prezentacji:
 
 - [Niall Merrigan: Defensive Programming 101 v3](https://vimeo.com/68331203) - *W kolejce...*
 
-- [Hadi Hariri: Being an Anti-social Geek is harmful](https://vimeo.com/68327405) - *W kolejce...*
+- [Hadi Hariri: Being an Anti-social Geek is harmful](https://vimeo.com/68327405) (4/5) - Fajna prezentacja które zwraca uwagę na problemy z komunikacją. Jeżeli kiedykolwiek powiedziałeś "Nie lubię rozmawiać z klientami..." lub napisałeś spersonalizowany komentarz w kontroli wersji to ten wykład jest dla Ciebie.
 
 - [Gojko Adzic: Make Impacts, Not Software](https://vimeo.com/68327406) - *W kolejce...*
 
