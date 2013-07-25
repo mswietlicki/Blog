@@ -35,21 +35,19 @@ Moje oceny prezentacji:
 
 - [Russ Miles: You are not (only) a software developer! - Simplicity in practice](https://vimeo.com/68236436) (3/5) - *W kolejce...*
 
-- [Magne Jørgensen, Stein Grimstad: How much is a great developer worth?](https://vimeo.com/68331761) (3/5) 
-
-- Pierwsze co rzuca się w oczy to niestety kiepski angielski prezenterów. Mówią wolno i czasami ciężko ich zrozumieć. Mimo to prezentacja przedstawia ważną wiadomość. Spoiler: Dobry programista jest bardzo wiele razy lepszy niż początkujący. 
+- [Magne Jørgensen, Stein Grimstad: How much is a great developer worth?](https://vimeo.com/68331761) (3/5) - Pierwsze co rzuca się w oczy to niestety kiepski angielski prezenterów. Mówią wolno i czasami ciężko ich zrozumieć. Mimo to prezentacja przedstawia ważną wiadomość. Spoiler: Dobry programista jest bardzo wiele razy lepszy niż początkujący. 
 
 - [Jonas Winje, Einar W. Høst, Bjørn Einar Bjartnes: Reactive meta-programming with drones](https://vimeo.com/68236538) - *W kolejce...*
 
-- [Niall Merrigan: Defensive Programming 101 v3](https://vimeo.com/68331203) - *W kolejce...*
+- [Niall Merrigan: Defensive Programming 101 v3](https://vimeo.com/68331203) (4/5) - Prezentacja jest nie tyle o programowaniu defensywnym co o zabezpieczeniach aplikacji i stron webowych. Naill opowiada głównie o tym co już wiemy ale i tak robimy cały czas te same błędy. "Bo nie ma czasu", "Bo tak jest łatwiej", "Bo nikt nas przecież nie będzie hackował" itd..
 
 - [Hadi Hariri: Being an Anti-social Geek is harmful](https://vimeo.com/68327405) (4/5) - Fajna prezentacja które zwraca uwagę na problemy z komunikacją. Jeżeli kiedykolwiek powiedziałeś "Nie lubię rozmawiać z klientami..." lub napisałeś spersonalizowany komentarz w kontroli wersji to ten wykład jest dla Ciebie.
 
-- [Gojko Adzic: Make Impacts, Not Software](https://vimeo.com/68327406) - *W kolejce...*
+- [Gojko Adzic: Make Impacts, Not Software](https://vimeo.com/68327406) (5/5) - Prezentacje niestety urywa się na końcu ale mimo to Gojko świetnie opowiada o przykładach nieudanych projektów i najczęściej popełnianych błędach podczas prowadzenia projektu nie tylko programistycznego. Polecam.
 
 - [Dominick Baier: OAuth2 – The good, the bad and the ugly](https://vimeo.com/68331687) - *W kolejce...*
 
-- [Paul Betts: MVVM Without XAML: Writing Cross-Platform Mobile Applications with ReactiveUI](https://vimeo.com/68331765) - *W kolejce...*
+- [Paul Betts: MVVM Without XAML: Writing Cross-Platform Mobile Applications with ReactiveUI](https://vimeo.com/68331765) (3/5) - Podstawy ReactiveUI. Nie musisz tego oglądać.
 
 - [Tim G. Thomas: A Developer's Guide to Design Frameworks (and More!)](https://vimeo.com/68331927) - *W kolejce...*
 
