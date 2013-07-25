@@ -11,19 +11,4 @@ Fortunately YouTube provides xml API which enables Us to retrieve all metadata a
 
 I however went one step further and created PowerShell script that gives you exact date in your local timezone.
 
-```powershell
-function Get-YTDate{
-	Param([String]$id)
-
-	if($id -match '.+?v=(?<id>[\w-]+)'){
-		$id = $matches['id']
-	}
-	$url = "http://gdata.youtube.com/feeds/api/videos/"+$id+"?v=2"
-	$xml = [xml](Get-WebContent $url)
-	$published = $xml.entry.published
-	
-	[System.DateTime]::Parse($published)
-}
-```
-
 <script src="https://gist.github.com/mswietlicki/6079077.js"></script>
