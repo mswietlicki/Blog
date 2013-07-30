@@ -49,11 +49,11 @@ Moje oceny prezentacji:
 
 - [Paul Betts: MVVM Without XAML: Writing Cross-Platform Mobile Applications with ReactiveUI](https://vimeo.com/68331765) (3/5) - Podstawy ReactiveUI. Nie musisz tego oglądać.
 
-- [Tim G. Thomas: A Developer's Guide to Design Frameworks (and More!)](https://vimeo.com/68331927) - *W kolejce...*
+- [Tim G. Thomas: A Developer's Guide to Design Frameworks (and More!)](https://vimeo.com/68331927) (4/5) - Jeżeli tworzysz front-end aplikacji webowych to powinieneś obejrzeć tą prezentację. Tim radzi jak wybrać framework, kolory, czcionki czy nawet ikony dla Twojej witryny.  
 
-- [Venkat Subramaniam: Rediscovering JavaScript](https://vimeo.com/68331936) - *W kolejce...*
+- [Venkat Subramaniam: Rediscovering JavaScript](https://vimeo.com/68331936) (5/5) - Świetna prezentacja na temat JS i jego kruczkach ;)
 
-- [Bodil Stokke: What Every Hipster Should Know About Functional Programming](https://vimeo.com/68331937) - *W kolejce...*
+- [Bodil Stokke: What Every Hipster Should Know About Functional Programming](https://vimeo.com/68331937) (3/5) - Podstawy języków funkcyjnych w trochę zabawny sposób. Mi było ciężko się na nim skupić. 
 
 - [Anders Norås: Game on: Developing HTML5 games](https://vimeo.com/68331934) - *W kolejce...*
 
@@ -67,7 +67,7 @@ Moje oceny prezentacji:
 
 - [Fredrik Kalseth: UX by Developers](https://vimeo.com/68320470) - *W kolejce...*
 
-- [Jon Skeet: Abusing C#](https://vimeo.com/68320506) - *W kolejce...*
+- [Jon Skeet: Abusing C#](https://vimeo.com/68320506) (5/5) - Jeżeli programujesz w C# i myślisz, że sporo o nim wiesz to musisz to obejrzeć. Próba zrozumienia tricku z async nawet mnie przyprawiła o ból głowy ;) 
 
 - [Liz Keogh: Don't let your process hide your ignorance](https://vimeo.com/68320504) - *W kolejce...*
 
@@ -75,9 +75,9 @@ Moje oceny prezentacji:
 
 - [Andrei Alexandrescu: Generic Programming Galore using D](https://vimeo.com/68378925) - *W kolejce...*
 
-- [Andy Hunt: Debugging your mind](https://vimeo.com/68378949) - *W kolejce...*
+- [Andy Hunt: Debugging your mind](https://vimeo.com/68378949) (4/5) - Ciekawa prezentacja starająca się uświadomić nam, że my jako ludzie mamy tendencje to popełniania błędów, generalizowania i poleganiu na niesprawdzonych informacjach. Lekka do obejrzenia przy kawie.
 
-- [Giovanni Asproni: Writing Usable APIs in Practice](https://vimeo.com/68383287) - *W kolejce...*
+- [Giovanni Asproni: Writing Usable APIs in Practice](https://vimeo.com/68383287) (2/5) - Nie wiem czy to akcent czy monotonny styl mówienia czy straszne powtórzenia, ale prezentacje strasznie się ogląda. Właściwie nawet nie wiem o czym on mówił.
 
 - [James Shore: Test-Driven JavaScript Master Class](https://vimeo.com/68383288) - *W kolejce...*
 
@@ -89,9 +89,9 @@ Moje oceny prezentacji:
 
 - [Kristoffer Rolf Deinoff: Automated release management with TeamCity & OctopusDeploy](https://vimeo.com/68383404) - *W kolejce...*
 
-- [Jon Skeet: C# 5](https://vimeo.com/68390480) - *W kolejce...*
+- [Jon Skeet: C# 5](https://vimeo.com/68390480) (4/5) - Jon łopatologicznie tłumaczy na czym polega async await i robi to na wysokim poziomie wiec warto obejrzeć.
 
-- [Nik Molnar: Running OSS Projects: From Zero to Sixty](https://vimeo.com/68390481) - *W kolejce...*
+- [Nik Molnar: Running OSS Projects: From Zero to Sixty](https://vimeo.com/68390481) (4/5) - Użyteczny wykład na temat wszystkiego co wiąże się z stworzeniem własnego projektu open source i jego utrzymaniem.
 
 - [Damian Edwards: Don’t do that, do this! Recommendations from the ASP.NET team](https://vimeo.com/68390507) - *W kolejce...*
 
