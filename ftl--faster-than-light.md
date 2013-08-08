@@ -13,16 +13,19 @@ Game is simple and easy to learn but extremely hard to finish. It takes around 3
 Nether the less randomness of game levels, many weapons, drones, ships and ways to kill your opponent will keep you playing for hours.
 
 Pros:
-	- Fun
-	- Addictive
-	- Simple
-	- Spaceships!
-	- Good music
+
+- Fun
+- Addictive
+- Simple
+- Spaceships!
+- Good music
 Cons:
-	- Addictive. I had to install this game to stop playing ;)
-	- Little too hard and unpredictable
-	- Too expensive (10$)
-	- No android port
+
+- Addictive. I had to install this game to stop playing ;)
+- Little too hard and unpredictable
+- Too expensive (10$)
+- No android port
+
 My score: (7/10)
 
 
