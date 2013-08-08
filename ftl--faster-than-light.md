@@ -1,6 +1,6 @@
 Title: FTL: Faster Than Light
 Autor: Mateusz Świetlicki
-CreateDate: 2011-08-08 09:39
+CreateDate: 2013-08-08 09:39
 Tags: 	Blog
 		EN
 		Games
