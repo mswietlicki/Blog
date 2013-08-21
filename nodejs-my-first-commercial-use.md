@@ -1,4 +1,4 @@
-﻿Title: FTL: Node.js my first commercial use
+﻿Title: My first commercial use of node.js
 Autor: Mateusz Świetlicki
 CreateDate: 2013-08-21 12:39
 Tags: 	Blog
