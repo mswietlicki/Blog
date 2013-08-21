@@ -1,5 +1,5 @@
-Title: FTL: Node.js pierwsze wra¿enia
-Autor: Mateusz Œwietlicki
+ï»¿Title: FTL: Node.js pierwsze wraÅ¼enia
+Autor: Mateusz Åšwietlicki
 CreateDate: 2013-08-21 12:39
 Tags: 	Blog
 		EN
