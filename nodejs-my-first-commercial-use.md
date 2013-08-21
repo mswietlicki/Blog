@@ -1,8 +1,7 @@
-﻿Title: FTL: Node.js pierwsze wrażenia
+﻿Title: FTL: Node.js my first commecial use
 Autor: Mateusz Świetlicki
 CreateDate: 2013-08-21 12:39
-Tags: 	Blog
-		EN
+Tags: 	EN
 		Node.js
 		nodejs
 
