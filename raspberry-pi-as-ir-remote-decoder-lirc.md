@@ -83,8 +83,8 @@ IR Remote codes for BenQ W700ST and Microlab Solo7c decode by me can be found on
 References:
 -----------
 
-- [](http://lirc.sourceforge.net/remotes/benq/MP620)
-- [](http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html)
+- http://lirc.sourceforge.net/remotes/benq/MP620
+- [http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html]
 - [](http://www.lirc.org/html/irsend.html)
 - [](http://wiki.openelec.tv/index.php?title=Guide_To_lirc_rpi_GPIO_Receiver)
 - [](http://wiki.xbmc.org/index.php?title=How-to:Setup_Lirc)
