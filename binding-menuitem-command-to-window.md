@@ -38,4 +38,4 @@ My problem was solve by binding to PlacementTarget property of ContextMenu and T
 </UserControl>
 ```
 
-Little too complex by work fine.
+Little too complex but works fine.
