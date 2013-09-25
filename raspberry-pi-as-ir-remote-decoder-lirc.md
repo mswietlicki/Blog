@@ -73,20 +73,20 @@ To load remote configuration you need to replace **/etc/lirc/lircd.conf** file.
 	sudo /etc/init.d/lirc restart
 ```
 
-You can also look for predefine configuration for your remote on [http://lirc.sourceforge.net/remotes](http://lirc.sourceforge.net/remotes).
+You can also look for predefine configuration for your remote on <http://lirc.sourceforge.net/remotes>.
 
 Summary:
 --------
 
-IR Remote codes for BenQ W700ST and Microlab Solo7c decode by me can be found on [https://github.com/mswietlicki/Lirc_remotes](https://github.com/mswietlicki/Lirc_remotes).
+IR Remote codes for BenQ W700ST and Microlab Solo7c decode by me can be found on <https://github.com/mswietlicki/Lirc_remotes>.
 
 References:
 -----------
 
-- http://lirc.sourceforge.net/remotes/benq/MP620
-- [http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html]
-- [](http://www.lirc.org/html/irsend.html)
-- [](http://wiki.openelec.tv/index.php?title=Guide_To_lirc_rpi_GPIO_Receiver)
-- [](http://wiki.xbmc.org/index.php?title=How-to:Setup_Lirc)
-- [](http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html)
-- [](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
+- <http://lirc.sourceforge.net/remotes/benq/MP620>
+- <http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html>
+- <http://www.lirc.org/html/irsend.html>
+- <http://wiki.openelec.tv/index.php?title=Guide_To_lirc_rpi_GPIO_Receiver>
+- <http://wiki.xbmc.org/index.php?title=How-to:Setup_Lirc>
+- <http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html>
+- <http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/>
