@@ -35,7 +35,7 @@ To install Lirc on your Raspberry Pi use my quick instalation or read detail ins
 	sudo apt-get install lirc
 	sudo echo 'lirc_dev' >> /etc/modules
 	sudo echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' >> /etc/modules
-	sudo wget 'http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf' > /etc/lirc/hardware.conf
+	sudo wget http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf > /etc/lirc/hardware.conf
 	sudo wget http://lirc.sourceforge.net/remotes/benq/MP620 -O /etc/lirc/lircd.conf
 	sudo /etc/init.d/lirc restart
 ```
@@ -83,10 +83,10 @@ IR Remote codes for BenQ W700ST and Microlab Solo7c decode by me can be found on
 References:
 -----------
 
-(http://lirc.sourceforge.net/remotes/benq/MP620)
-(http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html)
-(http://www.lirc.org/html/irsend.html)
-(http://wiki.openelec.tv/index.php?title=Guide_To_lirc_rpi_GPIO_Receiver)
-(http://wiki.xbmc.org/index.php?title=How-to:Setup_Lirc)
-(http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html)
-(http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
+- [](http://lirc.sourceforge.net/remotes/benq/MP620)
+- [](http://manpages.ubuntu.com/manpages/lucid/man1/irsend.1.html)
+- [](http://www.lirc.org/html/irsend.html)
+- [](http://wiki.openelec.tv/index.php?title=Guide_To_lirc_rpi_GPIO_Receiver)
+- [](http://wiki.xbmc.org/index.php?title=How-to:Setup_Lirc)
+- [](http://randomtutor.blogspot.gr/2013/01/web-based-ir-remote-on-raspberry-pi.html)
+- [](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/)
