@@ -75,6 +75,10 @@ To load remote configuration you need to replace **/etc/lirc/lircd.conf** file.
 
 You can also look for predefine configuration for your remote on [http://lirc.sourceforge.net/remotes](http://lirc.sourceforge.net/remotes).
 
+Summary:
+--------
+
+IR Remote codes for BenQ W700ST and Microlab Solo7c decode by me can be found on [https://github.com/mswietlicki/Lirc_remotes](https://github.com/mswietlicki/Lirc_remotes).
 
 References:
 -----------
