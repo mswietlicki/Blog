@@ -31,7 +31,7 @@ Instalation:
 
 To install Lirc on your Raspberry Pi use my quick instalation or read detail instactions on [this blog](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
 
-```ps
+```powershell
 	sudo apt-get install lirc
 	sudo echo 'lirc_dev' >> /etc/modules
 	sudo echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' >> /etc/modules
@@ -45,7 +45,7 @@ Testing:
 
 To test if receiver works properly you can look at raw data passing from /dev/lirc0.
 
-```ps
+```powershell
 	sudo /etc/init.d/lirc stop
 	mode2 -d /dev/lirc0
 ```
@@ -57,7 +57,7 @@ Recording:
 
 To record your IR remote codes you can use irrecord:
 
-```ps
+```powershell
 	sudo /etc/init.d/lirc stop
 	irrecord -d /dev/lirc0 --disable-namespace Remote.raw
 	irrecord -a Remote.raw Remote.conf
@@ -68,7 +68,7 @@ Loading remote configuration:
 
 To load remote configuration you need to replace **/etc/lirc/lircd.conf** file.
 
-```ps
+```powershell
 	sudo cp Remote.conf /etc/lirc/lircd.conf
 	sudo /etc/init.d/lirc restart
 ```
