@@ -26,6 +26,8 @@ For LIRC to work properly with IR receiver you need to connect:
 
 *Remember to check your IR Receiver datasheet for pins numbers conformation.*
 
+![IR Receiver](/files/ir_receiver.jpg)
+
 Instalation:
 ------------
 
