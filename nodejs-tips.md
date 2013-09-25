@@ -1,8 +1,7 @@
 Title: Node.js tips
 Autor: Mateusz Œwietlicki
 CreateDate: 2013-08-21 09:39
-Tags: 	Node.js
-		nodejs
+Tags: 	
 
 dir -r | ForEach-Object { $_.FullName.Replace('C:\Code\Nodejs\testProject\', '') } | ForEach-Object { '<Content Include="' + $_ + '"><SubType>Content</SubType></Content>' }
 
