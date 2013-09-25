@@ -19,6 +19,7 @@ Setting up:
 ----------
 
 For LIRC to work properly with IR receiver you need to connect:
+
 - RPi 3.3 to TSOP2236 pin 2 (Vs)
 - RPi GND to TSOP2236 pin 3 (GND)
 - RPi GPIO 18 to TSOP2236 pin 1 (OUT)
@@ -30,7 +31,7 @@ Instalation:
 
 To install Lirc on your Raspberry Pi use my quick instalation or read detail instactions on [this blog](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
 
-```bash
+```ps
 	sudo apt-get install lirc
 	sudo echo 'lirc_dev' >> /etc/modules
 	sudo echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' >> /etc/modules
@@ -44,7 +45,7 @@ Testing:
 
 To test if receiver works properly you can look at raw data passing from /dev/lirc0.
 
-```bash
+```ps
 	sudo /etc/init.d/lirc stop
 	mode2 -d /dev/lirc0
 ```
@@ -56,7 +57,7 @@ Recording:
 
 To record your IR remote codes you can use irrecord:
 
-```bash
+```ps
 	sudo /etc/init.d/lirc stop
 	irrecord -d /dev/lirc0 --disable-namespace Remote.raw
 	irrecord -a Remote.raw Remote.conf
@@ -67,7 +68,7 @@ Loading remote configuration:
 
 To load remote configuration you need to replace **/etc/lirc/lircd.conf** file.
 
-```bash
+```ps
 	sudo cp Remote.conf /etc/lirc/lircd.conf
 	sudo /etc/init.d/lirc restart
 ```
