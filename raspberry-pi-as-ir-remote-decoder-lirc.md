@@ -1,5 +1,5 @@
 Title: Raspberry Pi as IR remote decoder (LIRC)
-Autor: Mateusz Œwietlicki
+Autor: Mateusz ï¿½wietlicki
 CreateDate: 2013-09-25 09:39
 Tags: 	Blog
 		EN
@@ -7,7 +7,7 @@ Tags: 	Blog
 		LIRC
 		HomeIntelligence
 
-As part of my dream to build automatisation and remote control system in my flat I needed to decode IR remotes for my projector and speakers. Thanks to that later I will by able to control them easily from Raspberry Pi or AVR µC.
+As part of my dream to build automatisation and remote control system in my flat I needed to decode IR remotes for my projector and speakers. Thanks to that later I will by able to control them easily from Raspberry Pi or AVR uC.
 
 What you need?
 -------------
@@ -31,7 +31,7 @@ For LIRC to work properly with IR receiver you need to connect:
 Instalation:
 ------------
 
-To install Lirc on your Raspberry Pi use my quick instalation or read detail instactions on [this blog](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
+To install Lirc on your Raspberry Pi use my quick instalation or read detail instractions on [this blog](http://alexba.in/blog/2013/01/06/setting-up-lirc-on-the-raspberrypi/).
 
 ```powershell
 	sudo apt-get install lirc
