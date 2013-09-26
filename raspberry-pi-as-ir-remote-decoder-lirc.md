@@ -37,7 +37,7 @@ To install Lirc on your Raspberry Pi use my quick instalation or read detail ins
 	sudo apt-get install lirc
 	sudo echo 'lirc_dev' >> /etc/modules
 	sudo echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' >> /etc/modules
-	sudo wget http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf > /etc/lirc/hardware.conf
+	sudo wget http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf -O /etc/lirc/hardware.conf
 	sudo wget http://lirc.sourceforge.net/remotes/benq/MP620 -O /etc/lirc/lircd.conf
 	sudo /etc/init.d/lirc restart
 ```
