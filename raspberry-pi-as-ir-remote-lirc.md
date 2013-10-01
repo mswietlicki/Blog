@@ -19,8 +19,7 @@ What you need?
 - 200 Ohm resistor
 - NPN transistor (BC547 or S9014 or similar)
 - Some jumper cables
-- Decoded remote configuration from my previous post [Raspberry Pi as IR remote decoder (LIRC)
-](http://mateusz.swietlicki.net/Post/raspberry-pi-as-ir-remote-decoder-lirc)
+- Decoded remote configuration from my previous post [Raspberry Pi as IR remote decoder (LIRC)](http://mateusz.swietlicki.net/Post/raspberry-pi-as-ir-remote-decoder-lirc)
 
 Setting up:
 ----------
@@ -37,8 +36,7 @@ You can also use 5V to increase range.
 Instalation:
 -----------
 
-Instalation is the same as in my IR decoder post [Raspberry Pi as IR remote decoder (LIRC)
-](http://mateusz.swietlicki.net/Post/raspberry-pi-as-ir-remote-decoder-lirc).
+Instalation is the same as in my IR decoder post [Raspberry Pi as IR remote decoder (LIRC)](http://mateusz.swietlicki.net/Post/raspberry-pi-as-ir-remote-decoder-lirc).
 
 ```powershell
 	sudo apt-get install lirc
