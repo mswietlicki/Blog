@@ -1,5 +1,5 @@
 Title: Raspberry Pi as IR Remote (LIRC)
-Autor: Mateusz Œwietlicki
+Autor: Mateusz ï¿½wietlicki
 CreateDate: 2013-10-01 09:00
 Tags: 	Blog
 		EN
@@ -16,7 +16,7 @@ What you need?
 
 - Raspberry Pi
 - 940nm IR diode (preferable super bright)
-- 200Ohm resistor
+- 200 Ohm resistor
 - NPN transistor (BC547 or S9014 or similar)
 - Some jumper cables
 - Decoded remote configuration from my previous post [Raspberry Pi as IR remote decoder (LIRC)
@@ -31,7 +31,7 @@ You need to simple board and connect to GPIO 17 of your Raspberry Pi as in schem
 
 ![IR Transmiter picture](/files/ir-transmiter-picture.jpg)
 
-Transistor is needed to increase our remote effective range. You can connect diode directly to GPIO but it will by to weak to be useful.
+Transistor is needed to increase our remote effective range. You can connect diode directly to GPIO but it will be to weak to be useful.
 You can also use 5V to increase range.
 
 Instalation:
