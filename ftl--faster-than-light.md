@@ -22,7 +22,7 @@ Pros:
 
 Cons:
 
-- Addictive. I had to install this game to stop playing ;)
+- Addictive. I had to uninstall this game to stop playing ;)
 - Little too hard and unpredictable
 - Too expensive (10$)
 - No android port

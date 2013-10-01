@@ -35,7 +35,7 @@ http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2012/bdt25_edr
 
 http://yfc58.wordpress.com/2013/03/29/raspberry-pi-change-i2c-baudrate-to-400khz/
 
-$ sudo vi /etc/modprobe.d/i2c.conf
+$ sudo nano /etc/modprobe.d/i2c.conf
 options i2c_bcm2708 baudrate=400000
 
 lub:
