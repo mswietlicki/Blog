@@ -3,6 +3,7 @@ Autor: Mateusz �wietlicki
 CreateDate: 2013-09-25 09:39
 Tags: 	Blog
 		EN
+		Electronics
 		RaspberryPi
 		LIRC
 		HomeIntelligence

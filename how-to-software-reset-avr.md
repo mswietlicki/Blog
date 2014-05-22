@@ -3,6 +3,7 @@ Autor: Mateusz Œwietlicki
 CreateDate: 2013-10-01 19:57
 Tags: 	Blog
 		EN
+		Electronics
 		AVR
 		HomeIntelligence
 

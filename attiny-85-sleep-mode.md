@@ -3,6 +3,7 @@ Autor: Mateusz Świetlicki
 CreateDate: 2014-05-18 19:40
 Tags:	Blog
 		EN
+		Electronics
 		AVR
 
 Lately I found myself in need to reduce power consumption of my LED Staff AVR controller while idle.
