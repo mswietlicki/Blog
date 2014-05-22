@@ -10,6 +10,7 @@ Yesterday I conducted an experiment in which I tested how long will 1 12V batter
 Strip worked for at least __7 hours__... __WHY?!__
 
 I used:
+
 - 1 meter of 12V Led Strip (30 LED/m) with 2.4W/m power consumption (according to the documentation). 
 - 1 x 12V A23 50mAh battery.
 
