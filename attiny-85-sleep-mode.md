@@ -7,7 +7,7 @@ Tags:	Blog
 
 Lately I found myself in need to reduce power comsuption of my LED staff AVR controller while idle.
 
-ATTiny85 have 3 sleep modes: Idle, ADC Noise Rediction and Power-down. Power-down (SLEEP_MODE_PWR_DOWN) will stop internall clock and everything other than Watchdog, INT0 and Pin Change (PCINTx). In this mode AVR consumes less power than I can measure (less than 0.1mA).
+ATTiny85 have 3 sleep modes: Idle, ADC Noise Rediction and Power-down. Power-down (SLEEP\_MODE\_PWR_DOWN) will stop internall clock and everything other than Watchdog, INT0 and Pin Change (PCINTx). In this mode AVR consumes less power than I can measure (less than 0.1mA).
 
 To switch to sleep mode use this code: 
 ```C
