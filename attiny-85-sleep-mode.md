@@ -5,9 +5,9 @@ Tags:	Blog
 		EN
 		AVR
 
-Lately I found myself in need to reduce power comsuption of my LED staff AVR controller while idle.
+Lately I found myself in need to reduce power consumption of my LED Staff AVR controller while idle.
 
-ATTiny85 have 3 sleep modes: Idle, ADC Noise Rediction and Power-down. Power-down (SLEEP\_MODE\_PWR_DOWN) will stop internall clock and everything other than Watchdog, INT0 and Pin Change (PCINTx). In this mode AVR consumes less power than I can measure (less than 0.1mA).
+ATTiny85 have 3 sleep modes: Idle, ADC Noise Reduction and Power-down. Power-down (SLEEP\_MODE\_PWR_DOWN) will stop internal clock and everything other than Watchdog, INT0 and Pin Change (PCINTx). In this mode AVR consumes less power than I can measure (less than 0.1mA).
 
 To switch to sleep mode use this code: 
 ```C
@@ -30,7 +30,7 @@ Also you need to define way to wakeup AVR. I used PCINT4 (Pin 4 Change).
 	SetBit(PCMSK, PCINT4, 1); // Which pins are affected by the interrupt
 ```
 
-One more this to do is to define code that will responde to interrupt. If you don't do this AVR will fall to first line of code that is main() and "reset" your program.
+One more thing you need to do is to write code that will catch to interrupt. If you don't do this AVR will fall to first line of code that is main() and "reset" your program.
 
 ```C
 ISR(PCINT0_vect) { //Needed for sleep to not reset program after PCINT
