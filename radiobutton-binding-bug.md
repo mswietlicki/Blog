@@ -5,7 +5,8 @@ Tags:	Blog
 		PL
 		Bug
 		XAML
-		Error
+		WPF
+		.NET
 
 W .NET 3.5 istnieje bug powiązany z bindingiem właściwości **IsChecked**. Powiązana właściwość ViewModelu nie zmienia się automatycznie na False. 
 
