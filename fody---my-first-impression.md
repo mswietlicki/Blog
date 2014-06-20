@@ -5,7 +5,8 @@ Tags:	Blog
 		PL
 		.NET
 
-Today I spend my evening with Fody an open source PostSharp alternative. (https://github.com/Fody/Fody)
+Today I spend my evening with Fody an open source PostSharp alternative. [Fody](https://github.com/Fody/Fody)
+
 Personaly I think that this type of library is must have for every project, specially ones using WPF and MVVM but I won't agree with every available Fody plugin.
 
 For example using Fielder.Fody you can change auto-propety to public field and it will still be seen as property:
@@ -28,7 +29,7 @@ public class Person
 And you don't even need to add any attributes! 
 I thing that this plugin is dangerous and to much like magic. Using it will only obscure your code and make it less readable. 
 
-But many other plugin are extremely useful! E.g.:
+Nevertheless many other plugin are extremely useful! E.g.:
 
 Antor.Fody:
 ```c#
@@ -117,4 +118,4 @@ ToString.Fody
 	Console.WriteLine(new Point { X = 4, Y = 5 }); //Returns: {T: "Point", X: 4, Y: 5}
 ```
 
-In summary try it and fall in love with it. Your life will be easier. :)
+In summary try it and love it. Your life will be much easier. :)
