@@ -16,211 +16,211 @@ Here I will show You 4 ways to implement INotifyPropertyChanged in C#. Code can 
 ```C#
 
 public class Person: INotifyPropertyChanged
+{
+    private string _firstName;
+    private string _lastName;
+
+    public string FirstName
     {
-        private string _firstName;
-        private string _lastName;
-
-        public string FirstName
+        get { return _firstName; }
+        set
         {
-            get { return _firstName; }
-            set
-            {
-                _firstName = value;
-                OnPropertyChanged();
-                OnPropertyChanged("FullName");
-            }
-        }
-
-        public string LastName
-        {
-            get { return _lastName; }
-            set
-            {
-                _lastName = value;
-                OnPropertyChanged();
-                OnPropertyChanged("FullName");
-            }
-        }
-
-        public string FullName
-        {
-            get { return string.Format("{0} {1}", FirstName, LastName); }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            var handler = PropertyChanged;
-            if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+            _firstName = value;
+            OnPropertyChanged();
+            OnPropertyChanged("FullName");
         }
     }
+
+    public string LastName
+    {
+        get { return _lastName; }
+        set
+        {
+            _lastName = value;
+            OnPropertyChanged();
+            OnPropertyChanged("FullName");
+        }
+    }
+
+    public string FullName
+    {
+        get { return string.Format("{0} {1}", FirstName, LastName); }
+    }
+
+    public event PropertyChangedEventHandler PropertyChanged;
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    {
+        var handler = PropertyChanged;
+        if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
 ```
 
 2. BetterManual
 ---------------
 
 ```C#
-    public class ViewModelBase : INotifyPropertyChanged
+public class ViewModelBase : INotifyPropertyChanged
+{
+    public event PropertyChangedEventHandler PropertyChanged = delegate { };
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
     {
-        public event PropertyChangedEventHandler PropertyChanged = delegate { };
+        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+    }
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
+    protected virtual void OnPropertyChanged<TProperty>(Expression<Func<TProperty>> projection)
+    {
+        var propertyName = ((MemberExpression)projection.Body).Member.Name;
+        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+    }
+}
 
-        protected virtual void OnPropertyChanged<TProperty>(Expression<Func<TProperty>> projection)
+public class Person : ViewModelBase
+{
+    private string _firstName;
+    private string _lastName;
+
+    public string FirstName
+    {
+        get { return _firstName; }
+        set
         {
-            var propertyName = ((MemberExpression)projection.Body).Member.Name;
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            _firstName = value;
+            OnPropertyChanged();
+            OnPropertyChanged(() => FullName); //Usisng Lambda expression allows us to remove dangerous string literals.
         }
     }
 
-    public class Person : ViewModelBase
+    public string LastName
     {
-        private string _firstName;
-        private string _lastName;
-
-        public string FirstName
+        get { return _lastName; }
+        set
         {
-            get { return _firstName; }
-            set
-            {
-                _firstName = value;
-                OnPropertyChanged();
-                OnPropertyChanged(() => FullName); //Usisng Lambda expression allows us to remove dangerous string literals.
-            }
-        }
-
-        public string LastName
-        {
-            get { return _lastName; }
-            set
-            {
-                _lastName = value;
-                OnPropertyChanged();
-                OnPropertyChanged(() => FullName);
-            }
-        }
-
-        public string FullName
-        {
-            get { return string.Format("{0} {1}", FirstName, LastName); }
+            _lastName = value;
+            OnPropertyChanged();
+            OnPropertyChanged(() => FullName);
         }
     }
+
+    public string FullName
+    {
+        get { return string.Format("{0} {1}", FirstName, LastName); }
+    }
+}
 ```
 
 3. Dynamic proxy using Castle.Windsor
 ------------------------------------
 
 ```c#
-    public class ViewModelBase : INotifyPropertyChanged
+public class ViewModelBase : INotifyPropertyChanged
+{
+    public event PropertyChangedEventHandler PropertyChanged = delegate { };
+
+    public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
     {
-        public event PropertyChangedEventHandler PropertyChanged = delegate { };
-
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public virtual void OnPropertyChanged<TProperty>(Expression<Func<TProperty>> projection)
-        {
-            var propertyName = ((MemberExpression)projection.Body).Member.Name;
-            PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public void RegisterPropertyDependecy<T1, T2>(Expression<Func<T1>> source, Expression<Func<T2>> reactor)
-        {
-            var sourcePropertyName = ((MemberExpression)source.Body).Member.Name;
-            PropertyChanged += (sender, e) =>
-            {
-                if (e.PropertyName.Equals(sourcePropertyName))
-                    OnPropertyChanged(reactor);
-            };
-        }
+        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
     }
 
-    public class Person : ViewModelBase
+    public virtual void OnPropertyChanged<TProperty>(Expression<Func<TProperty>> projection)
     {
-        public Person()
-        {
-            RegisterPropertyDependecy(() => FirstName, () => FullName);
-            RegisterPropertyDependecy(() => LastName, () => FullName);
-        }
-        public virtual string FirstName { get; set; }
-
-        public virtual string LastName { get; set; }
-
-        public virtual string FullName
-        {
-            get { return string.Format("{0} {1}", FirstName, LastName); }
-        }
+        var propertyName = ((MemberExpression)projection.Body).Member.Name;
+        PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
     }
 
-    public class AutoOnPropertyChangedInterceptor : IInterceptor
+    public void RegisterPropertyDependecy<T1, T2>(Expression<Func<T1>> source, Expression<Func<T2>> reactor)
     {
-        public void Intercept(IInvocation invocation)
+        var sourcePropertyName = ((MemberExpression)source.Body).Member.Name;
+        PropertyChanged += (sender, e) =>
         {
-            invocation.Proceed();
+            if (e.PropertyName.Equals(sourcePropertyName))
+                OnPropertyChanged(reactor);
+        };
+    }
+}
 
-            var viewModel = invocation.Proxy as ViewModelBase;
-            if (viewModel == null)
-                return;
+public class Person : ViewModelBase
+{
+    public Person()
+    {
+        RegisterPropertyDependecy(() => FirstName, () => FullName);
+        RegisterPropertyDependecy(() => LastName, () => FullName);
+    }
+    public virtual string FirstName { get; set; }
 
-            if (!invocation.Method.Name.StartsWith("set_"))
-                return;
+    public virtual string LastName { get; set; }
 
-            var propertyName = invocation.Method.Name.Substring(4);
-            viewModel.OnPropertyChanged(propertyName);
+    public virtual string FullName
+    {
+        get { return string.Format("{0} {1}", FirstName, LastName); }
+    }
+}
+
+public class AutoOnPropertyChangedInterceptor : IInterceptor
+{
+    public void Intercept(IInvocation invocation)
+    {
+        invocation.Proceed();
+
+        var viewModel = invocation.Proxy as ViewModelBase;
+        if (viewModel == null)
+            return;
+
+        if (!invocation.Method.Name.StartsWith("set_"))
+            return;
+
+        var propertyName = invocation.Method.Name.Substring(4);
+        viewModel.OnPropertyChanged(propertyName);
+    }
+}
+
+public class PersonFactory
+{
+    public Person CreatePerson()
+    {
+        using (var container = new WindsorContainer())
+        {
+            container.Register(
+                Component.For<IInterceptor>()
+                    .ImplementedBy<AutoOnPropertyChangedInterceptor>());
+
+            container.Register(
+                Component.For<Person>()
+                    .ImplementedBy<Person>().Interceptors(InterceptorReference.ForType<IInterceptor>()).Anywhere);
+
+            return container.Resolve<Person>(); 
         }
     }
-
-    public class PersonFactory
-    {
-        public Person CreatePerson()
-        {
-            using (var container = new WindsorContainer())
-            {
-                container.Register(
-                    Component.For<IInterceptor>()
-                        .ImplementedBy<AutoOnPropertyChangedInterceptor>());
-
-                container.Register(
-                    Component.For<Person>()
-                        .ImplementedBy<Person>().Interceptors(InterceptorReference.ForType<IInterceptor>()).Anywhere);
-
-                return container.Resolve<Person>(); 
-            }
-        }
-    }
+}
 ```
 
 4. PostBuild using PropertyChanged.Fody
 ---------------------------------------
 
 ```c#
+/// <summary>
+/// This class uses PropertyChanged.Fody to implement INotifyPropertyChanged using post build IL modification. Manual implementaion of INotifyPropertyChanged is not needed but will help Visual Studio.
+/// </summary>
+[ImplementPropertyChanged]
+public class Person: INotifyPropertyChanged
+{
+    public string FirstName { get; set; }
+
+    public string LastName { get; set; }
+
     /// <summary>
-    /// This class uses PropertyChanged.Fody to implement INotifyPropertyChanged using post build IL modification. Manual implementaion of INotifyPropertyChanged is not needed but will help Visual Studio.
+    /// Fody is smart enough to know that FullName depends on FirstName and LastName and to invoke OnPropertyChanged("FullName")
     /// </summary>
-    [ImplementPropertyChanged]
-    public class Person: INotifyPropertyChanged
+    public string FullName
     {
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
-
-        /// <summary>
-        /// Fody is smart enough to know that FullName depends on FirstName and LastName and to invoke OnPropertyChanged("FullName")
-        /// </summary>
-        public string FullName
-        {
-            get { return string.Format("{0} {1}", FirstName, LastName); }
-        }
-
-        /// <summary>
-        /// Not really needed but will help Visual Studio. Try to remove INotifyPropertyChanged and PropertyChanged see that happens.
-        /// </summary>
-        public event PropertyChangedEventHandler PropertyChanged;
+        get { return string.Format("{0} {1}", FirstName, LastName); }
     }
+
+    /// <summary>
+    /// Not really needed but will help Visual Studio. Try to remove INotifyPropertyChanged and PropertyChanged see that happens.
+    /// </summary>
+    public event PropertyChangedEventHandler PropertyChanged;
+}
 ```
