@@ -7,8 +7,6 @@ Tags:	Blog
 		Conference
 		NDCOslo
 
-![NDC](/files/NDC_2013_Banner.jpg)
-
 Moje oceny prezentacji:
 
  - [Joe Armstrong - Functional Programming the Long Road to Enlightenment: a Historical and Personal Narrative](http://vimeo.com/97329186) (-/5) - 
