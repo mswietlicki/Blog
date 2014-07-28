@@ -1,4 +1,4 @@
- Title: NDC 2013 - Moje oceny
+Title: NDC 2014 - Moje oceny
 Autor: Mateusz Świetlicki
 CreateDate: 2014-07-22 10:42
 Tags:	Blog
@@ -49,7 +49,7 @@ Moje oceny prezentacji:
 
  - [Anders Knatten - So you think you can int? (C++)&quot;](http://vimeo.com/97507577) (-/5) - 
 
- - [Mathias Brandewinder - F# and Machine Learning: a winning combination](http://vimeo.com/97514517) (-/5) - 
+ - [Mathias Brandewinder - F# and Machine Learning: a winning combination](http://vimeo.com/97514517) (3/5) - Nieobejrzałem do końca. Prezentacja była ciekawa, ale nie dotyczyła problemów który mnie nie interesują i angielski prowadzącego jest dość kiepski.
 
  - [Johannes Brodwall - Build an extraordinary career by sharing your knowledge](http://vimeo.com/97514629) (-/5) - 
 
@@ -69,7 +69,7 @@ Moje oceny prezentacji:
 
  - [Jarle Boe - The Internet Of Things and everything wireless](http://vimeo.com/97530862) (-/5) - 
 
- - [Robert C. Martin - Clean Architecture and Design](http://vimeo.com/97530863) (-/5) - 
+ - [Robert C. Martin - Clean Architecture and Design](http://vimeo.com/97530863) (4/5) - 
 
  - [Martin Beeby - Understanding your website through the IE11 F12 tools](http://vimeo.com/97537017) (-/5) - 
 
