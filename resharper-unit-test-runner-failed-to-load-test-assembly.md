@@ -10,8 +10,8 @@ Today I stepped on a odd resharper tests error. I run unit test using a test run
 
 ![Unit Test Runner failed to load test assembly](/files/unit_test_runner_failed_to_run_tests.png)
 
-It turned out I have unwittingly change Unit Test Sessions Framework combobox to CLR2.
+It turned out I have unwittingly changed Unit Test Sessions Framework combobox to CLR2.
 
 ![Framework set to CLR2](/files/unit_test_runner_failed_to_run_tests_framework.PNG)
 
-Problem was resolved after changing but to Framework: Auto.
+Problem was resolved after changing it back to Framework: Auto.
