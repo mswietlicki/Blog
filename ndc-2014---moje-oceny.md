@@ -3,6 +3,7 @@ Autor: Mateusz Świetlicki
 CreateDate: 2014-07-22 10:42
 Tags:	Blog
 		PL
+		EN
 		NDC
 		Conference
 		NDCOslo
@@ -25,7 +26,7 @@ Moje oceny prezentacji:
 
  - [Robert Misch &amp; Simon Hohenadl - Delivering Continuously to 10 Million Users](http://vimeo.com/97419153) (-/5) - 
 
- - [Svein Arne Ackenhausen - .NET outside of Visual Studio](http://vimeo.com/97419176) (-/5) - 
+ - [Svein Arne Ackenhausen - .NET outside of Visual Studio](http://vimeo.com/97419176) (3/5) - Svein talked about using OpenIde with Sublime Text and AutoTest to create your own customizable IDE experience outside VS. Interesting idea but presentation was boring.
 
  - [Nico Josuttis - Privacy for the Internet](http://vimeo.com/97501375) (-/5) - 
 
