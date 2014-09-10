@@ -6,10 +6,10 @@ Tags:	O mnie
 
 <img class="leftImg" src="/files/winner.jpg" alt="Mateusz Świetlicki" />
 
-Programista .NET, C#, WPF, ASP.NET or SharePoint.
+Programista .NET, C#, WPF, ASP.NET MVC, Workflow Fundation czy ogólnie pojętego JS.
 
 Właściciel przedsiębiorstwa "Mateusz Świetlicki .NET". 
-Aktualnie zatrudniony jako programista WPF.
+Aktualnie zatrudniony jako programista C# i WF 4.5.
 
 Były Microsoft Student Partner na Politechnice Lubelskiej.
 
@@ -20,6 +20,8 @@ Były Microsoft Student Partner na Politechnice Lubelskiej.
 ## Kontakt ##
 
 Email: [blog@swietlicki.net](mailto:blog@swietlicki.net)
+
+PS: Oferty pracy proszę wysyłać z pełnymi informacjami takimi jak: widełki płacowe, forma zatrudnienia, miejsce i firmę docelową.
 
 ## Internet ##
 
