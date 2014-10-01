@@ -55,3 +55,5 @@ Get installed .NET frameworks versions
 	    Select PSChildName, Version
 	}
 ```
+
+Thanks to Jaykul. !(http://stackoverflow.com/questions/3487265/powershell-to-return-versions-of-net-framework-on-a-machine)
