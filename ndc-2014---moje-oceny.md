@@ -38,7 +38,7 @@ Moje oceny prezentacji:
 
  - [Damian Edwards &amp; David Fowler - The Future of ASP.NET Part II](http://vimeo.com/97505678) (-/5) - 
 
- - [Aral Balkan - Free is a Lie](http://vimeo.com/97505679) (-/5) - 
+ - [Aral Balkan - Free is a Lie](http://vimeo.com/97505679) (4/5) - Good presentation about our personal data and that corporation like facebook or google do with it.
 
  - [Enrico Campidoglio - Why no code reviews?](http://vimeo.com/97505680) (-/5) - 
 
