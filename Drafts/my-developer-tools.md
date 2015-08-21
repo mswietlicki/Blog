@@ -5,14 +5,13 @@ Tags:	Blog
 		EN
 		.NET
 
-Coprehensive summary of my developer toolset:
+Comprehensive summary of my developer toolset:
 
 1. Visual Studio 2013
 ---------------------
 
 1.1 Resharper 8.x.x
 ------------------
-Reshaper is 
 
 1.2 Productivity Power Tools 2013
 ---------------------------------
