@@ -40,9 +40,14 @@ Instalation is the same as in my IR decoder post [Raspberry Pi as IR remote deco
 
 ```powershell
 	sudo apt-get install lirc
-	sudo echo 'lirc_dev' >> /etc/modules
-	sudo echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' >> /etc/modules
-	sudo wget http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf > /etc/lirc/hardware.conf
+	echo 'lirc_dev' | sudo tee --append /etc/modules > /dev/null
+	echo 'lirc_rpi gpio_in_pin=18 gpio_out_pin=17' | sudo tee --append /etc/modules > /dev/null
+	echo 'dtoverlay=lirc-rpi,gpio_in_pin=18,gpio_out_pin=17' | sudo tee --append /boot/config.txt > /dev/null
+	sudo reboot
+```
+
+```powershell
+	sudo wget http://raw.github.com/mswietlicki/Blog/master/Files/lirc_hardware.conf -O /etc/lirc/hardware.conf
 	sudo wget http://raw.github.com/mswietlicki/Lirc_remotes/master/benq.config -O /etc/lirc/lircd.conf
 	sudo /etc/init.d/lirc restart
 ```
