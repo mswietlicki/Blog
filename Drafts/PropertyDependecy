@@ -1,0 +1,19 @@
+        public void RegisterPropertyListener<TProperty>(Expression<Func<TProperty>> projection, Action<object, PropertyChangedEventArgs> listener)
+        {
+            var propertyName = ((MemberExpression)projection.Body).Member.Name;
+            PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName.Equals(propertyName))
+                    listener(sender, e);
+            };
+        }
+
+        public void RegisterPropertyDependecy<TProperty>(Expression<Func<TProperty>> source, Expression<Func<TProperty>> reactor)
+        {
+            var sourcePropertyName = ((MemberExpression)source.Body).Member.Name;
+            PropertyChanged += (sender, e) =>
+            {
+                if (e.PropertyName.Equals(sourcePropertyName))
+                    OnPropertyChanged(reactor);
+            };
+        }

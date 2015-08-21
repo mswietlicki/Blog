@@ -1,0 +1,19 @@
+avrdude -c avrispmkii -p m644p -P usb48 -B 8 -u -e -U lock:w:0x3F:m -v
+
+avrdude -c avrispmkii -p m644p -P usb48 -v (used to check if chip signature is now correct)
+
+avrdude -c avrispmkii -p m644p -P usb48 -u -U efuse:w:0xFD:m -v 
+
+avrdude -c avrispmkii -p m644p -P usb48 -u -U hfuse:w:0xDC:m -v 
+
+avrdude -c avrispmkii -p m644p -P usb48 -u -U lfuse:w:0xFF:m -v 
+
+avrdude -c avrispmkii -p m644p -P usb48 -U flash:w:ATmegaBOOT_644P.hex -v 
+
+avrdude -c avrispmkii -p m644p -P usb48 -U lock:w:0x0F:m -v
+
+
+
+
+
+bootloadHID for Atmega1284
