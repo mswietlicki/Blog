@@ -4,3 +4,10 @@ s in the TrustedHosts list might not be authenticated. You can get more informat
 Help topic.
    Cannot validate argument on parameter 'Session'. The argument is null or empty. Provide an argument that is not null or empty, and then try the command again.
    Cannot bind argument to parameter 'Session' because it is null.
+
+
+
+http://winintro.ru/windowspowershell2corehelp.en/html/f23b65e2-c608-485d-95f5-a8c20e00f1fc.html
+
+set-item wsman:\localhost\Client\TrustedHosts -value *
+set-item wsman:\localhost\Client\TrustedHosts -value DESRV021
