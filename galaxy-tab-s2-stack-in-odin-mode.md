@@ -1,6 +1,6 @@
 Title: Galaxy Tab S2 stack in ODIN mode
 Autor: Mateusz Świetlicki
-CreateDate: 2016-05-13 11:33
+CreateDate: 2016-05-13 11:30
 Tags: 	Blog
 		EN
 		Android
