@@ -8,7 +8,7 @@ Tags:	Blog
         .NETCore
 
 So lets start by cleaning our repositories git clean should be enouth.
-```
+```ps
     git clean -dxf
 ```
 Now install .NET Core SDK from <https://www.microsoft.com/net/core#windows> and restart all powershel consoles. After that I was able to run new dotnet command but it's still 2 days of work before everything will work again.
@@ -29,7 +29,7 @@ But this is what I did:
     - Remove "Microsoft.Extensions.Configuration.FileProviderExtensions"
     - Add "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc2-final" if you need it
     - Replace "EntityFramework.Commands" with 
-```json
+```js
     "Microsoft.EntityFrameworkCore.Tools": {
         "type": "build",
         "version": "1.0.0-preview1-final"
@@ -37,7 +37,7 @@ But this is what I did:
 ```
     - Remove command "ef": "EntityFramework.Commands"
     - Add tool Microsoft.EntityFrameworkCore.Tools:
-```json
+```js
   "tools": {
     "Microsoft.EntityFrameworkCore.Tools": {
         "version": "1.0.0-preview1-final",
@@ -54,7 +54,7 @@ But this is what I did:
     - Remove "exclude"
     - Remove "publishExclude"
     - Add "publishOptions":
-```json
+```js
     "publishOptions": {
         "include": [
             "wwwroot",
@@ -113,7 +113,7 @@ But this is what I did:
 8. Move web.config from wwwroot to root of your project
 9. For good manner delete all project.lock.json files.
 10. If you have console apps using appsetting.json and "copyToOutput" to "buildOptions" in project.json:
-```json
+```js
     "buildOptions": {
         "emitEntryPoint": true,
         "copyToOutput": [
@@ -122,7 +122,7 @@ But this is what I did:
     },
 ```
 11. Change all projects that use EF and are Libraries to .NET Core App by adding static void Main() and buildOption emitEntryPoint.
-```json
+```js
   "buildOptions": {
     "emitEntryPoint": true
   },
