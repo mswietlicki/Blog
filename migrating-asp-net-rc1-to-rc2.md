@@ -153,10 +153,17 @@ Soluction:
 Usefull links
 -------------
 <https://blogs.msdn.microsoft.com/dotnet/2016/05/16/announcing-net-core-rc2/>
+
 <https://github.com/dotnet/cli/issues/3069>
+
 <https://docs.efproject.net/en/latest/cli/dotnet.html>
+
 <https://docs.asp.net/en/latest/fundamentals/configuration.html>
+
 <https://docs.efproject.net/en/latest/modeling/index.html>
+
 <https://blogs.msdn.microsoft.com/dotnet/2016/05/16/announcing-entity-framework-core-rc2/>
+
 <http://dotnet.github.io/docs/core-concepts/dnx-migration.html>
+
 <https://docs.asp.net/en/latest/testing/unit-testing.html>
