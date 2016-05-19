@@ -29,22 +29,22 @@ But this is what I did:
     - Remove "Microsoft.Extensions.Configuration.FileProviderExtensions"
     - Add "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc2-final" if you need it
     - Replace "EntityFramework.Commands" with 
-```javascript
-    "Microsoft.EntityFrameworkCore.Tools": {
-        "type": "build",
-        "version": "1.0.0-preview1-final"
-    }
-```
+    ```
+        "Microsoft.EntityFrameworkCore.Tools": {
+            "type": "build",
+            "version": "1.0.0-preview1-final"
+        }
+    ```
     - Remove command "ef": "EntityFramework.Commands"
     - Add tool Microsoft.EntityFrameworkCore.Tools:
-```javascript
-  "tools": {
-    "Microsoft.EntityFrameworkCore.Tools": {
-        "version": "1.0.0-preview1-final",
-        "imports": "portable-net452+win81"
-    }
-  },
-```
+    ```
+    "tools": {
+        "Microsoft.EntityFrameworkCore.Tools": {
+            "version": "1.0.0-preview1-final",
+            "imports": "portable-net452+win81"
+        }
+    },
+    ```
     - Replace "EntityFramework.Core" with "Microsoft.EntityFrameworkCore": "1.0.0-rc2-final"
     - Replace "EntityFramework.MicrosoftSqlServer" with "Microsoft.EntityFrameworkCore.SqlServer": "1.0.0-rc2-final"
     - If you are using System.Web.Http add "Microsoft.AspNetCore.Mvc.WebApiCompatShim": "1.0.0-rc2-final"
@@ -54,15 +54,15 @@ But this is what I did:
     - Remove "exclude"
     - Remove "publishExclude"
     - Add "publishOptions":
-```javascript
-    "publishOptions": {
-        "include": [
-            "wwwroot",
-            "appsettings.json",
-            "web.config"
-        ]
-    }
-```
+    ```
+        "publishOptions": {
+            "include": [
+                "wwwroot",
+                "appsettings.json",
+                "web.config"
+            ]
+        }
+    ```
     - "tags", "projectUrl" and "licenseUrl" remove or add to "buildOptions"
     - Replace "version": "1.0.0-*" with "version": "1.0.0"
     - Consider adding "preserveCompilationContext": true to web app "buildOptions"
@@ -74,25 +74,25 @@ But this is what I did:
     - Replace "IServiceCollection.AddInstance" with "IServiceCollection.AddSingleton"
     - Remove "app.UseIISPlatformHandler();"
     - Replace "WebApplication.Run<Startup>(args);" with 
-```c#
-    public static void Main(string[] args)
-    {
-        var host = new WebHostBuilder()
-        .UseKestrel()
-        .UseContentRoot(Directory.GetCurrentDirectory())
-        .UseIISIntegration()
-        .UseStartup<Startup>()
-        .Build();
+    ```c#
+        public static void Main(string[] args)
+        {
+            var host = new WebHostBuilder()
+            .UseKestrel()
+            .UseContentRoot(Directory.GetCurrentDirectory())
+            .UseIISIntegration()
+            .UseStartup<Startup>()
+            .Build();
 
-        host.Run();
-    }
-```
+            host.Run();
+        }
+    ```
     - .AddJsonFile("appsettings.json") replace with:
-```c#
-    .SetBasePath(env.ContentRootPath)
-    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
-    .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-```
+    ```c#
+        .SetBasePath(env.ContentRootPath)
+        .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+        .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+    ```
 4. In program.cs:
     - Change "IApplicationEnvironment" to "ApplicationEnvironment"
 5. In many places there is no more need for passing and using "ServiceCollection". You can remove it.
