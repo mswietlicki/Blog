@@ -14,9 +14,10 @@ So lets start by cleaning our repositories git clean should be enouth.
 Now install .NET Core SDK from <https://www.microsoft.com/net/core#windows> and restart all powershel consoles. After that I was able to run new dotnet command but it's still 2 days of work before everything will work again.
 
 Basic help can be found in:
- - <http://dotnet.github.io/docs/core-concepts/dnx-migration.html>
- - <https://docs.efproject.net/en/latest/miscellaneous/rc1-rc2-upgrade.html>
- - <https://docs.asp.net/en/latest/migration/rc1-to-rc2.html>
+
+- <http://dotnet.github.io/docs/core-concepts/dnx-migration.html>
+- <https://docs.efproject.net/en/latest/miscellaneous/rc1-rc2-upgrade.html>
+- <https://docs.asp.net/en/latest/migration/rc1-to-rc2.html>
 
 But this is what I did:
 
