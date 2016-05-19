@@ -8,15 +8,15 @@ Tags:	Blog
         .NETCore
 
 So lets start by cleaning our repositories git clean should be enouth.
-```ps
+```powershell
     git clean -dxf
 ```
 Now install .NET Core SDK from <https://www.microsoft.com/net/core#windows> and restart all powershel consoles. After that I was able to run new dotnet command but it's still 2 days of work before everything will work again.
 
 Basic help can be found in:
-- <http://dotnet.github.io/docs/core-concepts/dnx-migration.html>
-- <https://docs.efproject.net/en/latest/miscellaneous/rc1-rc2-upgrade.html>
-- <https://docs.asp.net/en/latest/migration/rc1-to-rc2.html>
+ - <http://dotnet.github.io/docs/core-concepts/dnx-migration.html>
+ - <https://docs.efproject.net/en/latest/miscellaneous/rc1-rc2-upgrade.html>
+ - <https://docs.asp.net/en/latest/migration/rc1-to-rc2.html>
 
 But this is what I did:
 
@@ -29,7 +29,7 @@ But this is what I did:
     - Remove "Microsoft.Extensions.Configuration.FileProviderExtensions"
     - Add "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0-rc2-final" if you need it
     - Replace "EntityFramework.Commands" with 
-```js
+```javascript
     "Microsoft.EntityFrameworkCore.Tools": {
         "type": "build",
         "version": "1.0.0-preview1-final"
@@ -37,7 +37,7 @@ But this is what I did:
 ```
     - Remove command "ef": "EntityFramework.Commands"
     - Add tool Microsoft.EntityFrameworkCore.Tools:
-```js
+```javascript
   "tools": {
     "Microsoft.EntityFrameworkCore.Tools": {
         "version": "1.0.0-preview1-final",
@@ -54,7 +54,7 @@ But this is what I did:
     - Remove "exclude"
     - Remove "publishExclude"
     - Add "publishOptions":
-```js
+```javascript
     "publishOptions": {
         "include": [
             "wwwroot",
@@ -74,7 +74,7 @@ But this is what I did:
     - Replace "IServiceCollection.AddInstance" with "IServiceCollection.AddSingleton"
     - Remove "app.UseIISPlatformHandler();"
     - Replace "WebApplication.Run<Startup>(args);" with 
-```csharp
+```c#
     public static void Main(string[] args)
     {
         var host = new WebHostBuilder()
@@ -88,7 +88,7 @@ But this is what I did:
     }
 ```
     - .AddJsonFile("appsettings.json") replace with:
-```csharp
+```c#
     .SetBasePath(env.ContentRootPath)
     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
     .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
@@ -113,7 +113,7 @@ But this is what I did:
 8. Move web.config from wwwroot to root of your project
 9. For good manner delete all project.lock.json files.
 10. If you have console apps using appsetting.json and "copyToOutput" to "buildOptions" in project.json:
-```js
+```javascript
     "buildOptions": {
         "emitEntryPoint": true,
         "copyToOutput": [
@@ -122,7 +122,7 @@ But this is what I did:
     },
 ```
 11. Change all projects that use EF and are Libraries to .NET Core App by adding static void Main() and buildOption emitEntryPoint.
-```js
+```javascript
   "buildOptions": {
     "emitEntryPoint": true
   },
@@ -131,7 +131,7 @@ But this is what I did:
 13. If you are using xunit you probably need to add "C:\Program Files\dotnet\sdk\1.0.0-preview1-002702\runtimes\win-x86\native" to you PATH env properties.
 
 Now you should be able to run:
-```ps
+```powershell
     dotnet restore
     dotnet build
     dotnet test
